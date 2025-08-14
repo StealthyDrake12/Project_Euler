@@ -1,16 +1,11 @@
 #Project Euler question 7
 
-#numbers
-
-counter = 0      
-number = 1    
-
-
+counter = 0
+number = 1
 
 #function
 
-def prime_check(number):
-    def is_prime(n):
+def is_prime(n):
     if n < 2:
         return False
     if n == 2 or n == 3:
@@ -26,11 +21,16 @@ def prime_check(number):
         i += 6
     return True
 
-#actual code
+
+
+# main code
 
 while counter < 10001:
     number += 1
-    if is_prime(num):
+    if is_prime(number):
         counter += 1
+        print (number)
 
-print(number)  # 10001st prime
+
+ #answer
+print(f"the answer is{number}")  
