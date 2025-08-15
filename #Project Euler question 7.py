@@ -14,6 +14,7 @@ def is_prime(n):
         return False
 
     # check only odd numbers from 5
+    
     i = 5
     while i * i <= n:
         if n % i == 0 or n % (i + 2) == 0:
