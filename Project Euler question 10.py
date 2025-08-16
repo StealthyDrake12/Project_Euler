@@ -4,8 +4,7 @@ import math
 
 total = 0
 
-#function
-
+#function - ##Taken from internet to check primes, as my previous solution was slow and inefficient###
 def isPrime(num):
     if num < 2:
         return False
@@ -19,6 +18,7 @@ def isPrime(num):
 for i in range (2, 2000000):
     if isPrime(i):
         total += i
+
 
 
 print (total)

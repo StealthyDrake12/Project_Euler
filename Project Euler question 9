@@ -1,3 +1,5 @@
+#Euler 9 - The product of pythagorean triplets that sum to 1000 exactly
+
 for a in range(0,1000):
     for b in range (a + 0, 1000):
         c = 1000 - a - b
